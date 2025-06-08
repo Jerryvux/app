@@ -1,0 +1,1 @@
+export const TABS = ['Home', 'Cửa hàng', 'Hộp thư', 'Video', 'Hồ sơ'];
