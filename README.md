@@ -87,11 +87,11 @@ Dự án được chia thành hai phần chính:
     npm install
     # hoặc yarn install
     ```
-3.  Cập nhật file cấu hình API (nếu có, ví dụ: trong `data/api.js` hoặc tương tự) để trỏ đến địa chỉ Backend của bạn (
-   ```bash
-   `http://10.0.2.2:8080` cho Android Emulator,
-   `http://localhost:8080` cho web hoặc thiết bị thật kết nối cùng mạng).
-   ```
+3.  Cập nhật file cấu hình API (nếu có, ví dụ: trong `data/api.js` hoặc tương tự) để trỏ đến địa chỉ Backend của bạn:
+    ```bash
+    `http://10.0.2.2:8080` cho Android Emulator,
+    `http://localhost:8080` cho web hoặc thiết bị thật kết nối cùng mạng).
+    ```
 4.  Khởi chạy ứng dụng React Native:
     ```bash
     npm start
