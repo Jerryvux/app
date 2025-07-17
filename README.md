@@ -70,7 +70,7 @@ Dự án được chia thành hai phần chính:
     ```
 4.  Build và chạy ứng dụng Spring Boot:
     ```bash
-    ./mvnw spring-boot:run
+    ./mvn spring-boot:run
     # hoặc nếu bạn dùng Gradle
     # ./gradlew bootRun
     ```
