@@ -87,43 +87,12 @@ Dự án được chia thành hai phần chính:
     npm install
     # hoặc yarn install
     ```
-3.  Cập nhật file cấu hình API (nếu có, ví dụ: trong `data/api.j   ```
-2.  Di chuyển vào thư mục `shopeeline`:
-    ```bash
-    cd app/shopeeline
-    ```
-3.  Cập nhật file `src/main/resources/application.properties` (hoặc `application.yml`) với thông tin kết nối cơ sở dữ liệu của bạn:
-    ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/testShopee_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    spring.datasource.username=your_mysql_username
-    spring.datasource.password=your_mysql_password
-    spring.jpa.hibernate.ddl-auto=update # hoặc none nếu bạn đã có schema
-    ```
-4.  Build và chạy ứng dụng Spring Boot:
-    ```bash
-    ./mvnw spring-boot:run
-    # hoặc nếu bạn dùng Gradle
-    # ./gradlew bootRun
-    ```
-    API sẽ chạy trên cổng mặc định 8080 (hoặc cổng bạn cấu hình).
-
-### 3. Frontend Setup
-
-1.  Di chuyển vào thư mục `appapp`:
-    ```bash
-    cd ../app
-    ```
-2.  Cài đặt các dependency:
-    ```bash
-    npm install
-    # hoặc yarn install
-    ```
 3.  Cập nhật file cấu hình API (nếu có, ví dụ: trong `data/api.js` hoặc tương tự) để trỏ đến địa chỉ Backend của bạn (
    ```bash
-   http://10.0.2.2:8080` cho Android Emulator,
-   http://localhost:8080` cho web hoặc thiết bị thật kết nối cùng mạng).
+   `http://10.0.2.2:8080` cho Android Emulator,
+   `http://localhost:8080` cho web hoặc thiết bị thật kết nối cùng mạng).
    ```
-5.  Khởi chạy ứng dụng React Native:
+4.  Khởi chạy ứng dụng React Native:
     ```bash
     npm start
     # or
