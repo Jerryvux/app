@@ -105,6 +105,6 @@ Dự án này được phát triển cá nhân bởi [Vũ Đức Duy](https://gi
 
 Nếu có bất kỳ câu hỏi nào, bạn có thể liên hệ qua:
 * Email: jerryvux@gmail.com .
-* GitHub: https://github.com/Jerryvux .
+* GitHub: [https://github.com/Jerryvux](https://github.com/Jerryvux/app) .
 
 ---
